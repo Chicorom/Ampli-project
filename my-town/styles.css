@@ -76,7 +76,7 @@ body {
 
 /* begin footer styling */
 .primary-footer {
-    padding: 2px;
+    padding: 20px;
     background-color: #FFC122;
     text-align: center;
 }
@@ -84,6 +84,29 @@ body {
 .created-by {
     color: #FFFFFF;
     font-size: 20px;
+    margin: 20px;
 }
-
+.git-hub{
+    background-color: #8a9fff;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+}
 /* end footer styling */
+.git-hub:hover{
+    background-color: #ffffff;
+    color: #8a9fff;
+    border-radius: 3px;
+}
+.store-link:hover{
+    color: #e5d200;
+    font-size: 24px;
+    text-decoration: none;
+}
+.Transition{
+    transition: color 1s linear;
+    transition: font-size 1s linear;
+    transition: text-decoration 1s linear;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+}
